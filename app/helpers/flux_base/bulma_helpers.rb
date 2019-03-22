@@ -23,13 +23,6 @@ module FluxBase
       end
     end
 
-    # Generates pretty printed JSON for obj.
-    def display_json(obj)
-      JSON.pretty_generate(obj)
-    rescue JSON::GeneratorError
-      JSON.pretty_generate(JSON.parse(obj.to_json))
-    end
-
     # Replaces the auto-generated errors div for record forms.
     def display_errors(record)
       return unless record.errors.any?
