@@ -44,7 +44,7 @@ module FluxBase
       end
     end
 
-    # Creates a Bulma message with the given title and options. Use a block to define the card body.
+    # Creates a Bulma message with the given title and options. Use a block to define the message body.
     def create_message(title, options = {})
       content_tag(:article, class: 'message ' + options.delete(:class), **options) do
         header = content_tag(:div, title, class: 'message-header')
