@@ -12,23 +12,20 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Luc Street']
   spec.email       = ['lucis-fluxum@users.noreply.github.com']
   spec.homepage    = 'https://github.com/lucis-fluxum/flux_base'
-  spec.summary     = 'Summary of FluxBase.'
-  spec.description = 'Description of FluxBase.'
+  spec.summary     = 'A mountable engine providing sensible default gems and helpers for new Rails applications.'
   spec.license     = 'MIT'
 
-  spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
+  spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
 
   spec.add_dependency 'awesome_print'
   spec.add_dependency 'bootsnap'
   spec.add_dependency 'byebug'
   spec.add_dependency 'capybara'
-  spec.add_dependency 'database_cleaner'
   spec.add_dependency 'jbuilder'
   spec.add_dependency 'listen'
   spec.add_dependency 'puma'
   spec.add_dependency 'rails', '~> 6.0.1'
   spec.add_dependency 'rails_semantic_logger'
-  spec.add_dependency 'redis'
   spec.add_dependency 'sass-rails'
   spec.add_dependency 'slim-rails'
   spec.add_dependency 'spring'

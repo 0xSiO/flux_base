@@ -1,28 +1,27 @@
-# FluxBase
-Short description and motivation.
+# flux_base
+A Rails engine providing sensible default gems and helpers for new applications.
 
-## Usage
-How to use my plugin.
+## Notable Features
+- [rails_semantic_logger](https://github.com/rocketjob/rails_semantic_logger) with 
+[awesome_print](https://github.com/awesome-print/awesome_print)
+- [slim-rails](https://github.com/slim-template/slim-rails)
+- [whenever](https://github.com/javan/whenever)
+- View helpers for [Bulma](https://bulma.io/) - just include `FluxBase::BulmaHelpers`
+- Miscellaneous view helpers - just include `FluxBase::ApplicationHelper`
 
 ## Installation
-Add this line to your application's Gemfile:
-
+Create a new Rails application. Remove all default dependencies from your Gemfile and add the line:
 ```ruby
 gem 'flux_base'
 ```
 
-And then execute:
+Then execute:
 ```bash
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install flux_base
-```
-
 ## Contributing
-Contribution directions go here.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lucis-fluxum/flux_base.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
