@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module FluxBase
   module BulmaHelpers
     # Add controls in the block passed to this method.
@@ -11,6 +13,7 @@ module FluxBase
 
     def display_notice
       return unless notice.present?
+
       content_tag(:div, class: 'notification is-info') do
         notice
       end
@@ -18,6 +21,7 @@ module FluxBase
 
     def display_alert
       return unless alert.present?
+
       content_tag(:div, class: 'notification is-danger') do
         alert
       end
