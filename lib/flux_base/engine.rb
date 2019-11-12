@@ -13,8 +13,6 @@ if Rails.env == 'development' || Rails.env == 'test'
   if Rails.env == 'development'
     require 'spring/watcher/listen'
     require 'web_console'
-  else
-    require 'capybara/rails'
   end
 end
 
