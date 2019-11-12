@@ -8,7 +8,6 @@ require 'webpacker'
 
 if Rails.env == 'development' || Rails.env == 'test'
   require 'byebug'
-  require 'database_cleaner'
 
   if Rails.env == 'development'
     require 'spring/watcher/listen'
