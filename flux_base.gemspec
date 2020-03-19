@@ -17,7 +17,6 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_dependency 'awesome_print', '~> 1.8.0'
   spec.add_dependency 'bootsnap', '~> 1.4.6'
   spec.add_dependency 'byebug', '~> 11.1.1'
   spec.add_dependency 'capybara', '~> 3.31.0'
