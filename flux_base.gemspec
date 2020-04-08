@@ -30,6 +30,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'spring', '~> 2.1.0'
   spec.add_dependency 'spring-watcher-listen', '~> 2.0.1'
   spec.add_dependency 'turbolinks', '~> 5.2.1'
+  # TODO: After turbolinks 6, this shouldn't be necessary
+  spec.add_dependency 'turbolinks_render', '~> 0.9.17'
   spec.add_dependency 'web-console', '~> 4.0.1'
   spec.add_dependency 'webpacker', '~> 4.2.2'
   spec.add_dependency 'whenever', '~> 1.0.0'

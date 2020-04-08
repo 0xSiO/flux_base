@@ -4,6 +4,7 @@ require 'jbuilder'
 require 'rails_semantic_logger'
 require 'slim-rails'
 require 'turbolinks'
+require 'turbolinks_render'
 require 'webpacker'
 
 if Rails.env == 'development' || Rails.env == 'test'
