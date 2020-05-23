@@ -2,8 +2,7 @@
 A Rails engine providing sensible default gems and helpers for new applications.
 
 ## Notable Features
-- [rails_semantic_logger](https://github.com/rocketjob/rails_semantic_logger) with 
-[awesome_print](https://github.com/awesome-print/awesome_print)
+- [rails_semantic_logger](https://github.com/rocketjob/rails_semantic_logger)
 - [slim-rails](https://github.com/slim-template/slim-rails)
 - [whenever](https://github.com/javan/whenever)
 - View helpers for [Bulma](https://bulma.io/) - just include `FluxBase::BulmaHelpers`
