@@ -10,8 +10,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'flux_base'
   spec.version     = FluxBase::VERSION
   spec.authors     = ['Luc Street']
-  spec.email       = ['lucis-fluxum@users.noreply.github.com']
-  spec.homepage    = 'https://github.com/lucis-fluxum/flux_base'
+  spec.homepage    = 'https://github.com/0xSiO/flux_base'
   spec.summary     = 'A mountable engine providing sensible default gems and helpers for new Rails applications.'
   spec.license     = 'MIT'
 
